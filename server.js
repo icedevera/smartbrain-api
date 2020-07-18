@@ -2,7 +2,6 @@ const express = require("express");
 const bcrypt = require("bcrypt-nodejs");
 const cors = require("cors");
 const knex = require("knex");
-const { restart } = require("nodemon");
 
 const register = require("./controllers/register");
 const signin = require("./controllers/signin");
